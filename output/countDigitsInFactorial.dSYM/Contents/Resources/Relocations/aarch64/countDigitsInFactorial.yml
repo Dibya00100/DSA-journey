@@ -1,0 +1,15 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/dibyajyotimishra/DSA/output/countDigitsInFactorial'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z9factoriali, symObjAddr: 0x0, symBinAddr: 0x100003BA8, symSize: 0x64 }
+  - { offsetInCU: 0x4443, offset: 0x4443, size: 0x8, addend: 0x0, symName: __ZNSt3__14endlB7v160006IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_, symObjAddr: 0x1C0, symBinAddr: 0x100003D68, symSize: 0x58 }
+  - { offsetInCU: 0x4483, offset: 0x4483, size: 0x8, addend: 0x0, symName: __ZNSt3__19use_facetB7v160006INS_5ctypeIcEEEERKT_RKNS_6localeE, symObjAddr: 0x2A4, symBinAddr: 0x100003E4C, symSize: 0x2C }
+  - { offsetInCU: 0x6D21, offset: 0x6D21, size: 0x8, addend: 0x0, symName: __Z9factoriali, symObjAddr: 0x0, symBinAddr: 0x100003BA8, symSize: 0x64 }
+  - { offsetInCU: 0x6D4D, offset: 0x6D4D, size: 0x8, addend: 0x0, symName: __Z17digitsInFactoriali, symObjAddr: 0x64, symBinAddr: 0x100003C0C, symSize: 0x9C }
+  - { offsetInCU: 0x6D95, offset: 0x6D95, size: 0x8, addend: 0x0, symName: __Z5floorB7v160006IiENSt3__19enable_ifIXsr3std11is_integralIT_EE5valueEdE4typeES2_, symObjAddr: 0x100, symBinAddr: 0x100003CA8, symSize: 0x24 }
+  - { offsetInCU: 0x6DCC, offset: 0x6DCC, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x124, symBinAddr: 0x100003CCC, symSize: 0x70 }
+  - { offsetInCU: 0x6E92, offset: 0x6E92, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsB7v160006EPFRS3_S4_E, symObjAddr: 0x194, symBinAddr: 0x100003D3C, symSize: 0x2C }
+  - { offsetInCU: 0x6EC4, offset: 0x6EC4, size: 0x8, addend: 0x0, symName: __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE5widenB7v160006Ec, symObjAddr: 0x218, symBinAddr: 0x100003DC0, symSize: 0x8C }
+  - { offsetInCU: 0x6F30, offset: 0x6F30, size: 0x8, addend: 0x0, symName: __ZNKSt3__15ctypeIcE5widenB7v160006Ec, symObjAddr: 0x2D0, symBinAddr: 0x100003E78, symSize: 0x38 }
+...

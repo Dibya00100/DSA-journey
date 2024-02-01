@@ -2,19 +2,7 @@
 #include <limits.h>
 using namespace std;
 
-bool checkPrime(int n)
-{
-    if (n <= 1)
-        return false;
-    for (int i = 2; i * i <= n; i++)
-    {
-        if (n % i == 0)
-            return false;
-    }
-    return true;
-}
-
-int primeFactor(int n)
+void primeFactor(int n)
 {
     if (n <= 1)
         return;
@@ -22,8 +10,19 @@ int primeFactor(int n)
     {
         while (n % i == 0)
         {
-            cout << i;
+            cout << i << " ";
             n = n / i;
         }
     }
+    if (n > 1)
+        cout << n << " ";
+    cout << endl;
+}
+
+int main()
+{
+    int n;
+    cin >> n;
+    primeFactor(n);
+    return 0;
 }

@@ -1,19 +1,18 @@
 #include <stdio.h>
 
-int factorial(int n)
+int factorial(int N)
 {
     int fact = 1;
-    while (n > 0)
-    {
-        fact *= n;
-        n--;
-    }
+    if (N == 0)
+        return 1;
+    for (int i = 1; i <= N; i++)
+        fact = fact * i;
     return fact;
 }
 
 int main()
 {
-    int n = 6;
+    int n = 13;
     int fact = factorial(n);
     printf("%d", fact);
 }
